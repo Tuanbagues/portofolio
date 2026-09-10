@@ -1,21 +1,33 @@
-MIT License
+PROPRIETARY SOFTWARE LICENSE AGREEMENT
+COPYRIGHT © 2026 TUANBAGUES. ALL RIGHTS RESERVED.
+PREAMBLE
+This Proprietary Software License Agreement (the "Agreement") is made and legally entered into as of the date this software is accessed or deployed by GoSmart Teknologi Creative as the rightful Copyright Holder, together with Tuanbagues as the authorized administrator and original owner. By accessing, viewing, or storing this software, any party acknowledges that they have read, understood, and agreed to be bound strictly by all legal terms and restrictions contained within this Agreement.
+ARTICLE 1: DEFINITIONS AND SCOPE
+ * "Software" encompasses all parts of the source code, object code, scripts, libraries, databases, user interfaces, technical documentation, guide files, graphics, and any related materials accompanying this license document, whether in digital or physical form.
+ * "Copyright Holder" refers to the official legal entity GoSmart Teknologi Creative, which holds full and exclusive ownership of the intellectual property rights in this Software.
+ * "Original Owner / Administrator" refers to Tuanbagues, the party holding exclusive authority over the management and private utilization of the Software.
+ * "Third Party" means any individual, legal entity, corporation, partnership, organization, or entity whatsoever other than the Copyright Holder and the Original Owner.
+ARTICLE 2: GRANT OF PRIVATE USE
+ * The Copyright Holder hereby grants a non-exclusive (restricted solely to the rightful internal party), revocable, and non-transferable license, exclusively to Tuanbagues, to access, view, copy, and modify this Software solely for personal, private, and internal use (internal use only).
+ * This license grant does not transfer any copyright or intellectual property ownership from the Copyright Holder to Tuanbagues or any other party; all ownership rights remain entirely vested in GoSmart Teknologi Creative.
+ARTICLE 3: STRICT RESTRICTIONS AND ABSOLUTE PROHIBITIONS
+Except as expressly permitted under prior written terms signed by the Copyright Holder, NO PARTY OTHER THAN THE COPYRIGHT HOLDER is permitted to perform any of the following actions:
+ * Redistribution and Publication: Copying, redistributing, sharing, disseminating, or publishing the Software, in whole or in part, in source code, binary, or any derivative form through any medium.
+ * Commercial and Non-Commercial Utilization: Using, deploying, integrating, compiling, or operating the Software for any commercial or non-commercial purpose by any third party or for any interests outside the scope of the Original Owner's private use.
+ * Reverse Engineering and Derivative Modifications: Performing decompilation, deconstruction, reverse engineering, code dismantling, or creating derivative works of this Software by any means whatsoever.
+ * License Transfer: Selling, leasing, lending, sublicensing, transferring, or assigning this license to any other party, whether voluntarily, by operation of law, or through corporate consolidation.
+ARTICLE 4: INTERNAL LINK AND REFERENCE EXCEPTION
+ * Any mention of names, narrative citations, or reference writings regarding this Software by outside parties or the public must be accompanied by a valid, active internal hyperlink directing straight to the official text of this license.
+ * This exception solely applies to informational reference rights and does not grant any legal rights whatsoever for any reader or third party to download, copy, execute, or utilize the underlying software code or materials.
+ARTICLE 5: VIOLATIONS AND LEGAL REMEDIES
+ * Any unauthorized use, copying, distribution, or exploitation of the Software in violation of this Agreement constitutes a severe infringement of applicable copyright and intellectual property laws.
+ * The Copyright Holder (GoSmart Teknologi Creative) reserves the full right to take all necessary legal actions, both civil and criminal, to seek material and immaterial damages for any losses arising from violations of these license terms.
+ARTICLE 6: DISCLAIMER OF WARRANTY
+THE SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDER AND ADMINISTRATOR ON an "AS IS" AND "AS AVAILABLE" BASIS, WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED. INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT OF COPYRIGHT. ALL RISK REGARDING THE QUALITY, PERFORMANCE, SECURITY, AND USAGE OF THE SOFTWARE IS BORNE ENTIRELY BY THE USER.
+ARTICLE 7: LIMITATION OF LIABILITY
+IN NO EVENT SHALL EITHER THE COPYRIGHT HOLDER (GOSMART TEKNOLOGI CREATIVE) OR THE ADMINISTRATOR (TUANBAGUES) BE LIABLE FOR ANY CLAIMS, DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES OF ANY KIND (INCLUDING BUT NOT LIMITED TO LOSS OF PROFITS, BUSINESS INTERRUPTION, LOSS OF DATA, OR SYSTEM DAMAGE) WHETHER IN AN ACTION OF CONTRACT, TORT, NEGLIGENCE, OR OTHERWISE, ARISING OUT OF, OF OR IN CONNECTION WITH THE USE OR INABILITY TO USE THIS SOFTWARE.
+ARTICLE 8: GOVERNING LAW
+This License Agreement shall be governed, construed, and enforced in accordance with the laws in force within the jurisdiction of the Republic of Indonesia, without regard to conflict of law principles.
 
-Copyright (c) 2026 Tuanbagues
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+For more information, please refer to <https://tuanbagues.netlify.app/>
