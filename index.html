@@ -22,16 +22,17 @@
     <!-- Font Awesome untuk ikon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-</head><body class="bg-darkbg text-gray-100 font-sans antialiased selection:bg-accent selection:text-white">
+</head>
+<body class="bg-darkbg text-gray-100 font-sans antialiased selection:bg-accent selection:text-white">
 
     <!-- Header / Navbar -->
     <header class="fixed top-0 left-0 w-full z-50 bg-darkbg/80 backdrop-blur-md border-b border-gray-800">
         <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
             <a href="#" class="flex items-center space-x-2 text-xl font-bold tracking-wider">
-                <span class="w-8 h-8 rounded bg-blue-600 flex items-center justify-center text-sm font-mono text-white">AC</span>
-                <span>TB.ACHMAD ILHAM EFENDI </span>
+                <span class="w-8 h-8 rounded bg-blue-600 flex items-center justify-center text-sm font-mono text-white">TA</span>
+                <span>TB.ACHMAD ILHAM EFENDI</span>
             </a>
-            
+
             <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-gray-400">
                 <a href="#about" class="hover:text-accent transition">About</a>
                 <a href="#skills" class="hover:text-accent transition">Skills</a>
@@ -55,11 +56,11 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="min-h-screen pt-32 pb-16 flex items-center relative overflow-hidden px-6">
+    <section id="about" class="min-h-screen pt-32 pb-16 flex items-center relative overflow-hidden px-6">
         <div class="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
                 <p class="text-sm font-mono tracking-widest text-accent uppercase mb-3">Hi, My Name Is</p>
-                <h1 class="text-5xl lg:text-7xl font-extrabold tracking-tight mb-4">TB.ACHMAD ILHAM EFENDI</h1>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight mb-4">TB.ACHMAD ILHAM EFENDI</h1>
                 <h2 class="text-2xl lg:text-3xl font-semibold text-gray-400 mb-6">Full Stack Web Developer</h2>
                 <p class="text-gray-400 max-w-xl mb-8 leading-relaxed">
                     I build fast websites, intelligent chatbots, and automation systems that run businesses on autopilot. From WordPress to n8n pipelines, I turn manual processes into software that works while you sleep.
@@ -112,6 +113,31 @@
         </div>
     </section>
 
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 px-6 bg-darkbg">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-xs font-mono uppercase tracking-widest text-accent mb-2">Expertise</h2>
+            <h3 class="text-3xl font-bold mb-12">Skills & Technologies</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                <div class="bg-cardbg border border-gray-800 p-6 rounded-2xl">
+                    <i class="fa-solid fa-code text-accent text-2xl mb-4"></i>
+                    <h4 class="text-lg font-bold mb-2">Frontend Development</h4>
+                    <p class="text-gray-400 text-sm">Next.js, React, TypeScript, Tailwind CSS, HTML5, CSS3.</p>
+                </div>
+                <div class="bg-cardbg border border-gray-800 p-6 rounded-2xl">
+                    <i class="fa-solid fa-server text-accent text-2xl mb-4"></i>
+                    <h4 class="text-lg font-bold mb-2">Backend & Database</h4>
+                    <p class="text-gray-400 text-sm">Node.js, Express, MongoDB, MySQL, REST APIs.</p>
+                </div>
+                <div class="bg-cardbg border border-gray-800 p-6 rounded-2xl">
+                    <i class="fa-solid fa-gears text-accent text-2xl mb-4"></i>
+                    <h4 class="text-lg font-bold mb-2">Tools & Automation</h4>
+                    <p class="text-gray-400 text-sm">Git, GitHub, Vercel, Netlify, n8n Pipelines, WordPress.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Projects Section -->
     <section id="projects" class="py-20 px-6 bg-cardbg/50">
         <div class="max-w-7xl mx-auto">
@@ -148,18 +174,46 @@
         </div>
     </section>
 
-    <!-- Footer / Contact Section -->
-    <footer id="contact" class="py-12 px-6 border-t border-gray-800 text-center">
-        <div class="max-w-7xl mx-auto">
-            <h3 class="text-2xl font-bold mb-4">Let's build something amazing together.</h3>
-            <p class="text-gray-400 mb-6">Reach out via email or connect on social networks.</p>
-            <a href="mailto:contact@alexcarter.dev" class="text-accent text-lg font-medium hover:underline">contact@alexcarter.dev</a>
-            <p class="text-xs text-gray-600 mt-12">&copy; 2026 TB.ACHMAD ILHAM EFENDI. All rights reserved.</p>
+    <!-- Footer / Contact Section yang Diperbarui -->
+    <footer id="contact" class="py-20 px-6 border-t border-gray-800 bg-darkbg">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h2 class="text-xs font-mono uppercase tracking-widest text-accent mb-2">Get In Touch</h2>
+                <h3 class="text-3xl font-bold mb-4">Let's build something amazing together.</h3>
+                <p class="text-gray-400 mb-6 leading-relaxed">
+                    Have a project in mind, looking for a full stack developer, or just want to say hi? Feel free to reach out via email or connect through my social channels below.
+                </p>
+                <a href="mailto:ilham@tuanbagues.dev" class="text-accent text-xl font-medium hover:underline flex items-center space-x-2">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>ilham@tuanbagues.dev</span>
+                </a>
+            </div>
+
+            <div class="bg-cardbg border border-gray-800 p-8 rounded-2xl">
+                <h4 class="text-xl font-bold mb-6">Connect on Socials</h4>
+                <div class="flex flex-wrap gap-4">
+                    <a href="https://github.com/" target="_blank" class="px-5 py-3 rounded-xl bg-gray-800 hover:bg-gray-700 text-white transition flex items-center space-x-2 border border-gray-700">
+                        <i class="fa-brands fa-github text-lg"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://linkedin.com/" target="_blank" class="px-5 py-3 rounded-xl bg-gray-800 hover:bg-gray-700 text-white transition flex items-center space-x-2 border border-gray-700">
+                        <i class="fa-brands fa-linkedin text-lg"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://wa.me/" target="_blank" class="px-5 py-3 rounded-xl bg-green-700 hover:bg-green-600 text-white transition flex items-center space-x-2">
+                        <i class="fa-brands fa-whatsapp text-lg"></i>
+                        <span>WhatsApp</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto mt-16 pt-8 border-t border-gray-900 text-center text-xs text-gray-500">
+            &copy; 2026 TB.ACHMAD ILHAM EFENDI. All rights reserved.
         </div>
     </footer>
 
     <!-- Floating WhatsApp Button -->
-    <a href="https://wa.me/" target="_blank" class="fixed bottom-6 right-6 w-14 h-14 bg-green-600 rounded-full flex items-center justify-center text-white text-2xl shadow-xl hover:bg-green-500 transition z-50">
+    <a href="https://wa.me/6285656198962" target="_blank" class="fixed bottom-6 right-6 w-14 h-14 bg-green-600 rounded-full flex items-center justify-center text-white text-2xl shadow-xl hover:bg-green-500 transition z-50">
         <i class="fa-brands fa-whatsapp"></i>
     </a>
 
