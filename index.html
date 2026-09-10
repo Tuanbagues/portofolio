@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TB.ACHMAD ILHAM EFENDI - Full Stack Web Developer Portfolio</title>
-    <!-- Tailwind CSS CDN untuk styling cepat dan responsif -->
+    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -37,6 +37,7 @@
                 <a href="#about" class="hover:text-accent transition">About</a>
                 <a href="#skills" class="hover:text-accent transition">Skills</a>
                 <a href="#projects" class="hover:text-accent transition">Projects</a>
+                <a href="#repositories" class="hover:text-accent transition">Repositories</a>
                 <a href="#contact" class="hover:text-accent transition">Contact</a>
                 <a href="#contact" class="px-4 py-2 rounded-full bg-accent text-white hover:bg-blue-600 transition shadow-lg shadow-blue-500/20">Hire Me</a>
             </nav>
@@ -51,6 +52,7 @@
             <a href="#about" class="block text-gray-300 hover:text-accent">About</a>
             <a href="#skills" class="block text-gray-300 hover:text-accent">Skills</a>
             <a href="#projects" class="block text-gray-300 hover:text-accent">Projects</a>
+            <a href="#repositories" class="block text-gray-300 hover:text-accent">Repositories</a>
             <a href="#contact" class="block text-gray-300 hover:text-accent">Contact</a>
         </div>
     </header>
@@ -104,7 +106,6 @@
                     <div class="w-48 h-48 sm:w-60 sm:h-60 rounded-full overflow-hidden border-2 border-accent/50 bg-gray-900 shadow-inner">
                         <img src="FOTO TUANBAGUES.jpg" alt="TB.ACHMAD ILHAM EFENDI" class="w-full h-full object-cover">
                     </div>
-                    <!-- Orbiting Badge Examples -->
                     <span class="absolute top-4 bg-cardbg border border-gray-700 text-xs px-3 py-1 rounded-full shadow">React</span>
                     <span class="absolute bottom-6 right-6 bg-cardbg border border-gray-700 text-xs px-3 py-1 rounded-full shadow">Tailwind</span>
                     <span class="absolute left-4 top-1/2 bg-cardbg border border-gray-700 text-xs px-3 py-1 rounded-full shadow">Node.js</span>
@@ -138,7 +139,7 @@
         </div>
     </section>
 
-    <!-- Projects Section -->
+    <!-- Projects Section (Featured Work) -->
     <section id="projects" class="py-20 px-6 bg-cardbg/50">
         <div class="max-w-7xl mx-auto">
             <h2 class="text-xs font-mono uppercase tracking-widest text-accent mb-2">Portfolio</h2>
@@ -146,35 +147,150 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <!-- Project Card 1 -->
-                <div class="bg-cardbg border border-gray-800 rounded-2xl p-6 hover:border-gray-700 transition group">
-                    <div class="h-48 rounded-xl bg-gray-900 mb-6 overflow-hidden border border-gray-800">
-                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600" alt="Project" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                <div class="bg-cardbg border border-gray-800 rounded-2xl p-6 hover:border-gray-700 transition group flex flex-col justify-between">
+                    <div>
+                        <div class="h-48 rounded-xl bg-gray-900 mb-6 overflow-hidden border border-gray-800">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600" alt="Project" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        </div>
+                        <div class="flex gap-2 mb-3">
+                            <span class="text-xs px-2.5 py-1 rounded bg-blue-950 text-accent border border-blue-900/50">Next.js</span>
+                            <span class="text-xs px-2.5 py-1 rounded bg-gray-800 text-gray-300">Tailwind</span>
+                        </div>
+                        <h4 class="text-xl font-bold mb-2">Real Estate Management Portal</h4>
+                        <p class="text-gray-400 text-sm mb-4">Property CRM dengan manajemen jadwal pembayaran dan dasbor klien siap pakai.</p>
+                        <div class="text-lg font-bold text-white mb-4">Rp 1.500.000</div>
                     </div>
-                    <div class="flex gap-2 mb-3">
-                        <span class="text-xs px-2.5 py-1 rounded bg-blue-950 text-accent border border-blue-900/50">Next.js</span>
-                        <span class="text-xs px-2.5 py-1 rounded bg-gray-800 text-gray-300">Tailwind</span>
+                    <div class="flex gap-3 pt-4 border-t border-gray-800">
+                        <button onclick="checkoutDirect('Real Estate Management Portal', 1500000)" class="w-full px-4 py-2.5 rounded-xl bg-accent hover:bg-blue-600 text-white text-sm font-medium transition shadow-lg shadow-blue-500/20 flex items-center justify-center space-x-2">
+                            <i class="fa-solid fa-bag-shopping text-xs"></i>
+                            <span>Beli / Checkout via WhatsApp</span>
+                        </button>
                     </div>
-                    <h4 class="text-xl font-bold mb-2">Real Estate Management Portal</h4>
-                    <p class="text-gray-400 text-sm mb-4">Property CRM with payment schedules, investment tracking, and client dashboards built for scale.</p>
                 </div>
 
                 <!-- Project Card 2 -->
-                <div class="bg-cardbg border border-gray-800 rounded-2xl p-6 hover:border-gray-700 transition group">
-                    <div class="h-48 rounded-xl bg-gray-900 mb-6 overflow-hidden border border-gray-800">
-                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=600" alt="Project" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                <div class="bg-cardbg border border-gray-800 rounded-2xl p-6 hover:border-gray-700 transition group flex flex-col justify-between">
+                    <div>
+                        <div class="h-48 rounded-xl bg-gray-900 mb-6 overflow-hidden border border-gray-800">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=600" alt="Project" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        </div>
+                        <div class="flex gap-2 mb-3">
+                            <span class="text-xs px-2.5 py-1 rounded bg-blue-950 text-accent border border-blue-900/50">WordPress</span>
+                            <span class="text-xs px-2.5 py-1 rounded bg-gray-800 text-gray-300">WooCommerce</span>
+                        </div>
+                        <h4 class="text-xl font-bold mb-2">Business WordPress Websites</h4>
+                        <p class="text-gray-400 text-sm mb-4">40+ custom websites delivered for business access, eCommerce, local retail outlets.</p>
+                        <div class="text-lg font-bold text-white mb-4">Rp 1.200.000</div>
                     </div>
-                    <div class="flex gap-2 mb-3">
-                        <span class="text-xs px-2.5 py-1 rounded bg-blue-950 text-accent border border-blue-900/50">WordPress</span>
-                        <span class="text-xs px-2.5 py-1 rounded bg-gray-800 text-gray-300">WooCommerce</span>
+                    <div class="flex gap-3 pt-4 border-t border-gray-800">
+                        <button onclick="checkoutDirect('Business WordPress Websites', 1200000)" class="w-full px-4 py-2.5 rounded-xl bg-accent hover:bg-blue-600 text-white text-sm font-medium transition shadow-lg shadow-blue-500/20 flex items-center justify-center space-x-2">
+                            <i class="fa-solid fa-bag-shopping text-xs"></i>
+                            <span>Beli / Checkout via WhatsApp</span>
+                        </button>
                     </div>
-                    <h4 class="text-xl font-bold mb-2">Business WordPress Websites</h4>
-                    <p class="text-gray-400 text-sm mb-4">40+ custom websites delivered for business access, eCommerce, local retail outlets with high-speed focus.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer / Contact Section yang Diperbarui -->
+    <!-- NEW SECTION: GitHub Repositories Ala Developer -->
+    <section id="repositories" class="py-20 px-6 bg-darkbg">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+                <div>
+                    <h2 class="text-xs font-mono uppercase tracking-widest text-accent mb-2">Open Source</h2>
+                    <h3 class="text-3xl font-bold">GitHub Repositories</h3>
+                </div>
+                <a href="https://github.com/Tuanbagues" target="_blank" class="mt-4 md:mt-0 text-sm text-accent hover:underline flex items-center space-x-2">
+                    <i class="fa-brands fa-github text-lg"></i>
+                    <span>Lihat Semua di GitHub (@Tuanbagues)</span>
+                </a>
+            </div>
+
+            <!-- Grid Repositories -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Repo 1 -->
+                <div class="bg-cardbg border border-gray-800 p-6 rounded-2xl hover:border-gray-700 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <i class="fa-solid fa-book-bookmark text-accent text-xl"></i>
+                            <span class="text-xs px-2.5 py-1 rounded-full bg-gray-800 text-gray-300 border border-gray-700">Public</span>
+                        </div>
+                        <h4 class="text-lg font-bold text-white mb-2 hover:text-accent transition">
+                            <a href="https://github.com/Tuanbagues" target="_blank">portfolio-nextjs-template</a>
+                        </h4>
+                        <p class="text-gray-400 text-sm mb-6 leading-relaxed">
+                            Template situs web portofolio pengembang tema gelap responsif menggunakan Next.js dan Tailwind CSS.
+                        </p>
+                    </div>
+                    <div class="flex items-center justify-between pt-4 border-t border-gray-800 text-xs text-gray-400">
+                        <span class="flex items-center space-x-1.5">
+                            <span class="w-3 h-3 rounded-full bg-yellow-500 inline-block"></span>
+                            <span>JavaScript / TypeScript</span>
+                        </span>
+                        <div class="flex space-x-3">
+                            <span><i class="fa-regular fa-star mr-1"></i> 12</span>
+                            <span><i class="fa-solid fa-code-fork mr-1"></i> 4</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Repo 2 -->
+                <div class="bg-cardbg border border-gray-800 p-6 rounded-2xl hover:border-gray-700 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <i class="fa-solid fa-book-bookmark text-accent text-xl"></i>
+                            <span class="text-xs px-2.5 py-1 rounded-full bg-gray-800 text-gray-300 border border-gray-700">Public</span>
+                        </div>
+                        <h4 class="text-lg font-bold text-white mb-2 hover:text-accent transition">
+                            <a href="https://github.com/Tuanbagues" target="_blank">n8n-automation-workflows</a>
+                        </h4>
+                        <p class="text-gray-400 text-sm mb-6 leading-relaxed">
+                            Kumpulan skrip otomatisasi dan webhook pipeline n8n untuk integrasi bisnis otomatis.
+                        </p>
+                    </div>
+                    <div class="flex items-center justify-between pt-4 border-t border-gray-800 text-xs text-gray-400">
+                        <span class="flex items-center space-x-1.5">
+                            <span class="w-3 h-3 rounded-full bg-blue-500 inline-block"></span>
+                            <span>Python / JSON</span>
+                        </span>
+                        <div class="flex space-x-3">
+                            <span><i class="fa-regular fa-star mr-1"></i> 8</span>
+                            <span><i class="fa-solid fa-code-fork mr-1"></i> 2</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Repo 3 -->
+                <div class="bg-cardbg border border-gray-800 p-6 rounded-2xl hover:border-gray-700 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <i class="fa-solid fa-book-bookmark text-accent text-xl"></i>
+                            <span class="text-xs px-2.5 py-1 rounded-full bg-gray-800 text-gray-300 border border-gray-700">Public</span>
+                        </div>
+                        <h4 class="text-lg font-bold text-white mb-2 hover:text-accent transition">
+                            <a href="https://github.com/Tuanbagues" target="_blank">spa-pijat-jakarta-24jam</a>
+                        </h4>
+                        <p class="text-gray-400 text-sm mb-6 leading-relaxed">
+                            Single Page Application landing page jasa layanan panggilan profesional dengan integrasi WhatsApp.
+                        </p>
+                    </div>
+                    <div class="flex items-center justify-between pt-4 border-t border-gray-800 text-xs text-gray-400">
+                        <span class="flex items-center space-x-1.5">
+                            <span class="w-3 h-3 rounded-full bg-orange-500 inline-block"></span>
+                            <span>HTML / CSS</span>
+                        </span>
+                        <div class="flex space-x-3">
+                            <span><i class="fa-regular fa-star mr-1"></i> 15</span>
+                            <span><i class="fa-solid fa-code-fork mr-1"></i> 5</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact Section -->
     <footer id="contact" class="py-20 px-6 border-t border-gray-800 bg-darkbg">
         <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
@@ -192,7 +308,7 @@
             <div class="bg-cardbg border border-gray-800 p-8 rounded-2xl">
                 <h4 class="text-xl font-bold mb-6">Connect on Socials</h4>
                 <div class="flex flex-wrap gap-4">
-                    <a href="https://github.com/" target="_blank" class="px-5 py-3 rounded-xl bg-gray-800 hover:bg-gray-700 text-white transition flex items-center space-x-2 border border-gray-700">
+                    <a href="https://github.com/Tuanbagues" target="_blank" class="px-5 py-3 rounded-xl bg-gray-800 hover:bg-gray-700 text-white transition flex items-center space-x-2 border border-gray-700">
                         <i class="fa-brands fa-github text-lg"></i>
                         <span>GitHub</span>
                     </a>
@@ -213,10 +329,19 @@
     </footer>
 
     <!-- Floating WhatsApp Button -->
-    <a href="https://wa.me/6285656198962" target="_blank" class="fixed bottom-6 right-6 w-14 h-14 bg-green-600 rounded-full flex items-center justify-center text-white text-2xl shadow-xl hover:bg-green-500 transition z-50">
+    <a href="https://wa.me/" target="_blank" class="fixed bottom-6 right-6 w-14 h-14 bg-green-600 rounded-full flex items-center justify-center text-white text-2xl shadow-xl hover:bg-green-500 transition z-50">
         <i class="fa-brands fa-whatsapp"></i>
     </a>
 
+    <!-- JavaScript sederhana untuk tombol checkout via WhatsApp -->
+    <script>
+        function checkoutDirect(productName, price) {
+            const phoneNumber = "6281234567890"; // Ganti dengan nomor WhatsApp Anda
+            const message = `Halo, saya ingin memesan produk "${productName}" dengan harga Rp ${price.toLocaleString('id-ID')}. Mohon info selanjutnya.`;
+            const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+            window.open(whatsappUrl, '_blank');
+        }
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
